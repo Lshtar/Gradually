@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CD9E528CD112A2EBFAFCB19 /* libPods-Gradually.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 967D251A82733D702A764928 /* libPods-Gradually.a */; };
+		CC436F2820FDC9460020C903 /* ButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC436F2720FDC9460020C903 /* ButtonView.m */; };
 		CCFA44A720F480FA003D631D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44A620F480FA003D631D /* AppDelegate.m */; };
 		CCFA44AA20F480FA003D631D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44A920F480FA003D631D /* ViewController.m */; };
 		CCFA44AD20F480FA003D631D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFA44AB20F480FA003D631D /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		CCFA44B520F480FC003D631D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44B420F480FC003D631D /* main.m */; };
 		CCFA44BF20F480FC003D631D /* GraduallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44BE20F480FC003D631D /* GraduallyTests.m */; };
 		CCFA44CA20F480FC003D631D /* GraduallyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44C920F480FC003D631D /* GraduallyUITests.m */; };
+		CCFA44D920F48140003D631D /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44D820F48140003D631D /* UIImage+Gradient.m */; };
+		CCFA44DC20F48159003D631D /* UIButton+gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA44DB20F48159003D631D /* UIButton+gradient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10E4877230A32DDBA3C6416A /* Pods-Gradually.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradually.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gradually/Pods-Gradually.debug.xcconfig"; sourceTree = "<group>"; };
+		15FB0555BF7003D03D96851F /* Pods-Gradually.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradually.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gradually/Pods-Gradually.release.xcconfig"; sourceTree = "<group>"; };
+		967D251A82733D702A764928 /* libPods-Gradually.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gradually.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC436F2620FDC9460020C903 /* ButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonView.h; sourceTree = "<group>"; };
+		CC436F2720FDC9460020C903 /* ButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonView.m; sourceTree = "<group>"; };
 		CCFA44A220F480FA003D631D /* Gradually.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradually.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFA44A520F480FA003D631D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCFA44A620F480FA003D631D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,10 @@
 		CCFA44C520F480FC003D631D /* GraduallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraduallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFA44C920F480FC003D631D /* GraduallyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraduallyUITests.m; sourceTree = "<group>"; };
 		CCFA44CB20F480FC003D631D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFA44D720F48140003D631D /* UIImage+Gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gradient.h"; sourceTree = "<group>"; };
+		CCFA44D820F48140003D631D /* UIImage+Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
+		CCFA44DA20F48159003D631D /* UIButton+gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+gradient.h"; sourceTree = "<group>"; };
+		CCFA44DB20F48159003D631D /* UIButton+gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+gradient.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD9E528CD112A2EBFAFCB19 /* libPods-Gradually.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041626BCD8788CCBA0DDD2A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10E4877230A32DDBA3C6416A /* Pods-Gradually.debug.xcconfig */,
+				15FB0555BF7003D03D96851F /* Pods-Gradually.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36E83C2905C15827533DE9AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967D251A82733D702A764928 /* libPods-Gradually.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CCFA449920F480FA003D631D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				CCFA44BD20F480FC003D631D /* GraduallyTests */,
 				CCFA44C820F480FC003D631D /* GraduallyUITests */,
 				CCFA44A320F480FA003D631D /* Products */,
+				041626BCD8788CCBA0DDD2A4 /* Pods */,
+				36E83C2905C15827533DE9AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +136,12 @@
 			children = (
 				CCFA44A520F480FA003D631D /* AppDelegate.h */,
 				CCFA44A620F480FA003D631D /* AppDelegate.m */,
+				CCFA44DA20F48159003D631D /* UIButton+gradient.h */,
+				CCFA44DB20F48159003D631D /* UIButton+gradient.m */,
+				CCFA44D720F48140003D631D /* UIImage+Gradient.h */,
+				CCFA44D820F48140003D631D /* UIImage+Gradient.m */,
+				CC436F2620FDC9460020C903 /* ButtonView.h */,
+				CC436F2720FDC9460020C903 /* ButtonView.m */,
 				CCFA44A820F480FA003D631D /* ViewController.h */,
 				CCFA44A920F480FA003D631D /* ViewController.m */,
 				CCFA44AB20F480FA003D631D /* Main.storyboard */,
@@ -139,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCFA44CE20F480FC003D631D /* Build configuration list for PBXNativeTarget "Gradually" */;
 			buildPhases = (
+				FB26E3825CE06666E3653A4A /* [CP] Check Pods Manifest.lock */,
 				CCFA449E20F480FA003D631D /* Sources */,
 				CCFA449F20F480FA003D631D /* Frameworks */,
 				CCFA44A020F480FA003D631D /* Resources */,
@@ -257,6 +297,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FB26E3825CE06666E3653A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gradually-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCFA449E20F480FA003D631D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +325,10 @@
 			files = (
 				CCFA44AA20F480FA003D631D /* ViewController.m in Sources */,
 				CCFA44B520F480FC003D631D /* main.m in Sources */,
+				CCFA44DC20F48159003D631D /* UIButton+gradient.m in Sources */,
+				CC436F2820FDC9460020C903 /* ButtonView.m in Sources */,
 				CCFA44A720F480FA003D631D /* AppDelegate.m in Sources */,
+				CCFA44D920F48140003D631D /* UIImage+Gradient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +495,7 @@
 		};
 		CCFA44CF20F480FC003D631D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E4877230A32DDBA3C6416A /* Pods-Gradually.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +512,7 @@
 		};
 		CCFA44D020F480FC003D631D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FB0555BF7003D03D96851F /* Pods-Gradually.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
